@@ -8,12 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { TestUserComponent } from './test-user/test-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    TestUserComponent
   ],
   imports: [
     BrowserModule,
